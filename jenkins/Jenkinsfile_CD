@@ -4,7 +4,7 @@ pipeline {
         stage('checkout') {
 	   steps {
                 echo 'compiling..'
-		git url: 'https://github.com/puneetgavri/DevopsProjectSampleJavaApp.git'
+		git url: 'https://github.com/balap05/DevopsProjectSampleJavaApp.git'
            }
         }
 	    stage('copy manisfests to k8s cluster') {
